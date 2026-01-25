@@ -1,0 +1,10 @@
+archive/
+dataset/
+datasets/
+__pycache__/
+.vs/
+bin/
+obj/
+*.zip
+*.pt
+*.h5

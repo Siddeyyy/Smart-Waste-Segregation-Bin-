@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['BIODEGRADABLE', 'CARDBOARD', 'GLASS', 'METAL', 'PAPER', 'PLASTIC']
+
+roboflow:
+  workspace: material-identification
+  project: garbage-classification-3
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/material-identification/garbage-classification-3/dataset/1
